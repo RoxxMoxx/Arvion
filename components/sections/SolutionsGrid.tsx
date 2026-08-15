@@ -18,12 +18,12 @@ export function SolutionsGrid() {
               id={solution.slug}
               href={`/solutions#${solution.slug}`}
               scroll={false}
-              className="group scroll-mt-24 rounded-xl2 border border-ink-950/10 bg-paper-50 p-6 shadow-card transition-transform hover:-translate-y-0.5"
+              className="group scroll-mt-24 rounded-xl2 border border-ink-950/10 bg-paper-50 p-6 shadow-card transition-all hover:-translate-y-1 hover:border-signal-500/30 hover:shadow-lg"
             >
-              <span className="text-xs font-medium uppercase tracking-widest text-signal-500">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-ink-950 text-xs font-medium text-paper-50 transition-colors group-hover:bg-signal-500">
                 {solution.letter}
               </span>
-              <h3 className="mt-2 font-display text-lg text-ink-950">{solution.name}</h3>
+              <h3 className="mt-4 font-display text-lg text-ink-950">{solution.name}</h3>
               <p className="mt-2 text-sm text-ink-500">{solution.summary}</p>
               {solution.note && (
                 <p className="mt-3 text-xs italic text-ink-300">{solution.note}</p>
