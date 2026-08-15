@@ -5,7 +5,7 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Why Arvion exists and how it approaches business technology.',
+  description: 'Technology should work for your business, not create more work for you — the Arvion approach to AI-powered business automation.',
 };
 
 export default function AboutPage() {
@@ -15,18 +15,24 @@ export default function AboutPage() {
         <div className="mx-auto max-w-3xl">
           <SectionHeading
             eyebrow="About"
-            title="Businesses don't need more software. They need technology that actually works for them."
+            title="Technology should work for your business — not create more work for you."
           />
           <div className="mt-8 space-y-5 text-ink-700">
             <p>
-              Many businesses are running on outdated websites, missed enquiries, manual booking,
-              repetitive phone calls, fragmented customer communication, inconsistent marketing, and
-              manual administrative work — often all at once, and often disconnected from each other.
+              Modern businesses often operate across disconnected websites, phone calls, bookings,
+              customer messages, marketing tools, and administrative tasks. The result is missed
+              opportunities, repetitive work, and valuable customer interactions falling through the
+              cracks.
             </p>
             <p>
-              Arvion connects those pieces into one platform, so a hotel, restaurant, clinic, salon,
-              retailer, or growing SME can respond faster, capture more of the enquiries it&apos;s
-              already getting, and spend less time on repetitive work.
+              Arvion brings these pieces together through AI-powered automation — helping businesses
+              respond faster, capture more opportunities, streamline everyday operations, and create
+              better customer experiences.
+            </p>
+            <p>
+              From hotels and restaurants to clinics, salons, retailers, and growing SMEs, Arvion
+              focuses on one simple goal: use technology where it creates measurable value, not
+              complexity.
             </p>
           </div>
         </div>
@@ -49,18 +55,20 @@ export default function AboutPage() {
               <p className="mt-1 text-sm font-medium text-signal-600">Founder &amp; CEO, Arvion</p>
               <div className="mt-4 space-y-4 text-sm text-ink-700">
                 <p>
-                  Mukesh leads Arvion&apos;s product and technology direction, with 11+ years across
-                  engineering, semiconductor and embedded systems, and technical leadership before
-                  founding Arvion.
+                  Mukesh brings 11+ years of experience across engineering, semiconductor technology,
+                  embedded systems, and technical leadership to Arvion.
                 </p>
                 <p>
-                  His focus is practical: apply AI and automation where it removes real friction for
-                  a business — a missed enquiry, a manual booking, a repetitive question — rather than
-                  chasing AI for its own sake.
+                  His approach is practical: identify where a business is losing time, opportunities,
+                  or customer attention — and apply AI and automation to solve the problem.
                 </p>
               </div>
             </div>
           </div>
+
+          <p className="mt-12 border-l-2 border-signal-500/40 pl-5 font-display text-lg italic text-ink-800">
+            Arvion is built on a simple belief: technology should remove friction, not add to it.
+          </p>
         </div>
       </Container>
     </main>
