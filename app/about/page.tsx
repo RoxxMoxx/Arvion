@@ -66,6 +66,29 @@ export default function AboutPage() {
             </div>
           </div>
 
+          <div className="mt-12 border-t border-ink-950/10 pt-12 sm:grid sm:grid-cols-[200px_1fr] sm:items-start sm:gap-8">
+            <div className="overflow-hidden rounded-xl2 border border-ink-950/10 shadow-card">
+              <Image
+                src="/cofounder.jpg"
+                alt="Md Tarikul Islam, Co-Founder and Bangladesh Country Head at Arvion"
+                width={520}
+                height={720}
+                className="h-auto w-full object-cover"
+              />
+            </div>
+            <div className="mt-6 sm:mt-0">
+              <p className="font-display text-2xl text-ink-950">Md Tarikul Islam</p>
+              <p className="mt-1 text-sm font-medium text-signal-600">Co-Founder &amp; Bangladesh Country Head</p>
+              <div className="mt-4 space-y-4 text-sm text-ink-700">
+                <p>
+                  Tarikul leads Arvion&apos;s presence and business growth in Bangladesh, working
+                  directly with local businesses to bring the same practical, AI-powered approach to
+                  their operations.
+                </p>
+              </div>
+            </div>
+          </div>
+
           <p className="mt-12 border-l-2 border-signal-500/40 pl-5 font-display text-lg italic text-ink-800">
             Arvion is built on a simple belief: technology should remove friction, not add to it.
           </p>

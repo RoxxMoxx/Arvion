@@ -1,12 +1,35 @@
-export const contactInfo = {
+export interface RegionalContact {
+  region: string;
+  email: string;
+  phoneDisplay: string;
+  phoneTel: string;
+  whatsappNumber: string; // digits only, no + or spaces — required format for wa.me links
+}
+
+export const worldwideContact: RegionalContact = {
+  region: 'Worldwide Business',
   email: 'eaunoit@yahoo.com',
   phoneDisplay: '+91 89103 64287',
   phoneTel: '+918910364287',
-  whatsappNumber: '918910364287', // no + or spaces, required format for wa.me links
+  whatsappNumber: '918910364287',
 };
 
-export const contactLinks = {
-  email: `mailto:${contactInfo.email}`,
-  phone: `tel:${contactInfo.phoneTel}`,
-  whatsapp: `https://wa.me/${contactInfo.whatsappNumber}`,
+export const bangladeshContact: RegionalContact = {
+  region: 'Bangladesh Business',
+  email: 'tuhin863@gmail.com',
+  phoneDisplay: '+880 1811-545040',
+  phoneTel: '+8801811545040',
+  whatsappNumber: '8801811545040',
 };
+
+export function contactLinksFor(contact: RegionalContact) {
+  return {
+    email: `mailto:${contact.email}`,
+    phone: `tel:${contact.phoneTel}`,
+    whatsapp: `https://wa.me/${contact.whatsappNumber}`,
+  };
+}
+
+// Kept for backward compatibility with existing usages (Footer) — defaults to worldwide.
+export const contactInfo = worldwideContact;
+export const contactLinks = contactLinksFor(worldwideContact);
