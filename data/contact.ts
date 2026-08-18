@@ -14,6 +14,14 @@ export const worldwideContact: RegionalContact = {
   whatsappNumber: '918910364287',
 };
 
+export const northAmericaContact: RegionalContact = {
+  region: 'North America',
+  email: 'stephendoucette8@gmail.com',
+  phoneDisplay: '+1-902-307-8447',
+  phoneTel: '+19023078447',
+  whatsappNumber: '19023078447',
+};
+
 export const bangladeshContact: RegionalContact = {
   region: 'Bangladesh Business',
   email: 'tuhin863@gmail.com',

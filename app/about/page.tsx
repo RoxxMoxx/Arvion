@@ -69,6 +69,29 @@ export default function AboutPage() {
           <div className="mt-12 border-t border-ink-950/10 pt-12 sm:grid sm:grid-cols-[200px_1fr] sm:items-start sm:gap-8">
             <div className="overflow-hidden rounded-xl2 border border-ink-950/10 shadow-card">
               <Image
+                src="/cmo.jpg"
+                alt="Stephen Doucette, CMO at Arvion"
+                width={360}
+                height={443}
+                className="h-auto w-full object-cover"
+              />
+            </div>
+            <div className="mt-6 sm:mt-0">
+              <p className="font-display text-2xl text-ink-950">Stephen Doucette</p>
+              <p className="mt-1 text-sm font-medium text-signal-600">CMO, Arvion</p>
+              <div className="mt-4 space-y-4 text-sm text-ink-700">
+                <p>
+                  Stephen leads the company&apos;s go-to-market strategy and helps businesses
+                  leverage AI-powered solutions to automate operations, acquire customers, and grow
+                  more efficiently.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 border-t border-ink-950/10 pt-12 sm:grid sm:grid-cols-[200px_1fr] sm:items-start sm:gap-8">
+            <div className="overflow-hidden rounded-xl2 border border-ink-950/10 shadow-card">
+              <Image
                 src="/cofounder.jpg"
                 alt="Md Tarikul Islam, Co-Founder and Bangladesh Country Head at Arvion"
                 width={520}

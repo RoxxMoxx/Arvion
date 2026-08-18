@@ -3,7 +3,7 @@ import { Container } from '@/components/ui/Container';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { Button } from '@/components/ui/Button';
 import { WhatsAppIcon } from '@/components/ui/WhatsAppIcon';
-import { worldwideContact, bangladeshContact, contactLinksFor, type RegionalContact } from '@/data/contact';
+import { worldwideContact, northAmericaContact, bangladeshContact, contactLinksFor, type RegionalContact } from '@/data/contact';
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -49,6 +49,7 @@ export default function ContactPage() {
 
           <div className="mt-10 space-y-5">
             <RegionalContactBlock contact={worldwideContact} />
+            <RegionalContactBlock contact={northAmericaContact} />
             <RegionalContactBlock contact={bangladeshContact} />
           </div>
 
