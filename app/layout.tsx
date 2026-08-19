@@ -13,24 +13,24 @@ const display = Fraunces({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://arvion.ai'),
+  metadataBase: new URL('https://simrion.ai'),
   title: {
-    default: 'Arvion — Turn Your Business Into an AI-Powered Business',
-    template: '%s | Arvion',
+    default: 'Simrion — Turn Your Business Into an AI-Powered Business',
+    template: '%s | Simrion',
   },
   description:
-    'Arvion connects your website, bookings, conversations, marketing and business workflows into one intelligent growth platform for hotels, restaurants, retail, clinics and growing SMEs.',
+    'Simrion connects your website, bookings, conversations, marketing and business workflows into one intelligent growth platform for hotels, restaurants, retail, clinics and growing SMEs.',
   openGraph: {
-    title: 'Arvion — Business Growth Infrastructure, Powered by AI',
+    title: 'Simrion — Business Growth Infrastructure, Powered by AI',
     description:
       'Websites, bookings, AI conversations, customer support, marketing and business automation — connected in one intelligent growth platform.',
-    url: 'https://arvion.ai',
-    siteName: 'Arvion',
+    url: 'https://simrion.ai',
+    siteName: 'Simrion',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Arvion — Business Growth Infrastructure, Powered by AI',
+    title: 'Simrion — Business Growth Infrastructure, Powered by AI',
     description:
       'Websites, bookings, AI conversations, customer support, marketing and business automation — connected in one intelligent growth platform.',
   },

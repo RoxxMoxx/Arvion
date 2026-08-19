@@ -16,7 +16,7 @@ export default function VoiceReceptionistPage() {
         <SectionHeading
           eyebrow="Demo"
           title="AI Voice Receptionist"
-          description="Try a simulated guest call for the Arvion Grand Hotel, an illustrative demo business. Ask about availability, book a room, or ask a question — then see what a real front-desk dashboard would capture."
+          description="Try a simulated guest call for the Simrion Grand Hotel, an illustrative demo business. Ask about availability, book a room, or ask a question — then see what a real front-desk dashboard would capture."
         />
         <div className="mt-6 rounded-xl border border-ink-950/10 bg-paper-100 px-4 py-3 text-sm text-ink-600">
           This is a frontend simulation running on demo data. It is not connected to a live phone

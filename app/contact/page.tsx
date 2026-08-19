@@ -7,7 +7,7 @@ import { worldwideContact, northAmericaContact, bangladeshContact, contactLinksF
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Get in touch with Arvion — worldwide and Bangladesh business contacts.',
+  description: 'Get in touch with Simrion — worldwide and Bangladesh business contacts.',
 };
 
 function RegionalContactBlock({ contact }: { contact: RegionalContact }) {
@@ -43,8 +43,8 @@ export default function ContactPage() {
         <div className="mx-auto max-w-2xl">
           <SectionHeading
             eyebrow="Contact"
-            title="Talk to Arvion."
-            description="Reach out and we'll follow up about your business and what Arvion could look like for it."
+            title="Talk to Simrion."
+            description="Reach out and we'll follow up about your business and what Simrion could look like for it."
           />
 
           <div className="mt-10 space-y-5">

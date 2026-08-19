@@ -1,6 +1,6 @@
 import type { DemoRoom } from '@/types';
 
-// All data on this page is illustrative "Arvion Grand Hotel" demo data.
+// All data on this page is illustrative "Simrion Grand Hotel" demo data.
 // Nothing here represents a real business, reservation system, or telephony integration.
 
 export const demoRooms: DemoRoom[] = [

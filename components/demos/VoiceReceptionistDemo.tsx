@@ -83,7 +83,7 @@ export function VoiceReceptionistDemo() {
       <div className="flex h-[560px] flex-col rounded-xl2 border border-ink-950/10 bg-paper-50 shadow-card">
         <div className="flex items-center justify-between border-b border-ink-950/10 px-5 py-4">
           <div>
-            <p className="font-display text-lg text-ink-950">Arvion Grand Hotel — AI Receptionist</p>
+            <p className="font-display text-lg text-ink-950">Simrion Grand Hotel — AI Receptionist</p>
             <p className="text-xs text-ink-500">Simulated call · not a live phone line</p>
           </div>
           <button

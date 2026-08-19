@@ -101,7 +101,7 @@ export function CallAuditDemo() {
 
         {phase === 'empty' && (
           <div className="rounded-xl2 border border-dashed border-ink-950/15 p-10 text-center text-sm text-ink-300">
-            Select a sample call above to see Arvion analyze it.
+            Select a sample call above to see Simrion analyze it.
           </div>
         )}
 
@@ -120,7 +120,7 @@ export function CallAuditDemo() {
             <p className="mt-1 text-sm text-ink-700">
               {selectedCall.title} could not be processed — the audio quality was too low for this
               demo&apos;s simulated transcription step. This is included intentionally to show how
-              Arvion handles a failed analysis.
+              Simrion handles a failed analysis.
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
               <button

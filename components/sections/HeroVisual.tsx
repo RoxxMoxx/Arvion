@@ -1,5 +1,5 @@
-// Signature hero visual: an abstracted "Arvion Console" mockup — not a literal
-// product screenshot, but a designed representation of what Arvion actually
+// Signature hero visual: an abstracted "Simrion Console" mockup — not a literal
+// product screenshot, but a designed representation of what Simrion actually
 // does (enquiries becoming bookings, next to the metrics that result),
 // presented inside a simple device frame with a few floating connector
 // badges for a cinematic, high-end SaaS feel.
@@ -60,7 +60,7 @@ export function HeroVisual() {
             <span className="h-2 w-2 rounded-full bg-paper-50/20" />
             <span className="h-2 w-2 rounded-full bg-paper-50/20" />
             <span className="ml-2 text-[11px] font-medium uppercase tracking-widest text-paper-50/40">
-              Arvion Console
+              Simrion Console
             </span>
           </div>
 

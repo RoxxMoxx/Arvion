@@ -15,7 +15,7 @@ const routes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://arvion.ai';
+  const base = 'https://simrion.ai';
   return routes.map((route) => ({
     url: `${base}${route}`,
     lastModified: new Date(),

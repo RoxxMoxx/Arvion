@@ -8,7 +8,7 @@ export function LogoMark({ size = 32 }: { size?: number }) {
     >
       <Image
         src="/logo-mark.png"
-        alt="Arvion"
+        alt="Simrion"
         width={size}
         height={size}
         className="h-full w-full object-contain"

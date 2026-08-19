@@ -12,7 +12,7 @@ export function HowItWorks() {
   return (
     <section id="how-it-works" className="py-24 sm:py-32">
       <Container>
-        <SectionHeading eyebrow="How Arvion Works" title="A clear path from where you are to an AI-powered business." />
+        <SectionHeading eyebrow="How Simrion Works" title="A clear path from where you are to an AI-powered business." />
         <ol className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {steps.map((step) => (
             <li key={step.number} className="border-t border-ink-950/10 pt-6">

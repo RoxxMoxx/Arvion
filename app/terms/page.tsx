@@ -4,7 +4,7 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'Arvion terms of service.',
+  description: 'Simrion terms of service.',
 };
 
 export default function TermsPage() {

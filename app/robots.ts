@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://arvion.ai/sitemap.xml',
+    sitemap: 'https://simrion.ai/sitemap.xml',
   };
 }

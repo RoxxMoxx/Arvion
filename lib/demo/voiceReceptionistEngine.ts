@@ -22,7 +22,7 @@ export function initialReceptionistState(): ReceptionistState {
     messages: [
       createMessage(
         'ai',
-        "Hi, thanks for calling Arvion Grand Hotel — this is your AI receptionist. How can I help you today?"
+        "Hi, thanks for calling Simrion Grand Hotel — this is your AI receptionist. How can I help you today?"
       ),
     ],
     proposedAvailability: null,

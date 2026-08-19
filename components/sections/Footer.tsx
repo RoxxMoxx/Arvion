@@ -30,7 +30,7 @@ export function Footer() {
         <div className="lg:col-span-2">
           <div className="flex items-center gap-2.5">
             <LogoMark size={28} />
-            <p className="font-display text-xl text-paper-50">Arvion</p>
+            <p className="font-display text-xl text-paper-50">Simrion</p>
           </div>
           <p className="mt-3 max-w-xs text-sm text-paper-200/70">
             AI-powered growth and automation for modern businesses.
@@ -72,7 +72,7 @@ export function Footer() {
         </div>
       </Container>
       <Container className="border-t border-paper-50/10 py-6 text-xs text-paper-200/50">
-        © {new Date().getFullYear()} Arvion. All rights reserved.
+        © {new Date().getFullYear()} Simrion. All rights reserved.
       </Container>
     </footer>
   );

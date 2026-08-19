@@ -25,14 +25,14 @@ export default function HomePage() {
         <div className="relative mx-auto grid max-w-content gap-14 px-6 py-24 sm:py-32 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div>
             <p className="text-sm font-medium uppercase tracking-[0.2em] text-signal-400">
-              Arvion
+              Simrion
             </p>
             <h1 className="mt-6 max-w-xl font-display text-4xl leading-[1.1] text-paper-50 sm:text-6xl">
               Turn your business into an <span className="text-signal-400">AI-powered</span>{' '}
               business.
             </h1>
             <p className="mt-6 max-w-md text-lg text-paper-50/60">
-              Arvion connects your website, bookings, conversations, marketing and business
+              Simrion connects your website, bookings, conversations, marketing and business
               workflows into one intelligent growth layer.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">

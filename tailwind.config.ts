@@ -1,6 +1,6 @@
 import type { Config } from 'tailwindcss';
 
-// Arvion design system tokens.
+// Simrion design system tokens.
 // Palette avoids generic "AI gradient purple" clichés in favor of a
 // premium, restrained enterprise look: deep ink, warm off-white, and a
 // single confident accent (amber-forward "signal" color) used sparingly.

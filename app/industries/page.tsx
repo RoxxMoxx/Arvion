@@ -6,7 +6,7 @@ import { industries } from '@/data/industries';
 export const metadata: Metadata = {
   title: 'Industries',
   description:
-    'How Arvion applies to hotels, restaurants, retail, clinics, salons, professional services, local businesses and growing SMEs.',
+    'How Simrion applies to hotels, restaurants, retail, clinics, salons, professional services, local businesses and growing SMEs.',
 };
 
 export default function IndustriesPage() {
@@ -37,7 +37,7 @@ export default function IndustriesPage() {
                   </ul>
                 </div>
                 <div>
-                  <p className="text-xs font-medium uppercase tracking-wide text-signal-600">Arvion</p>
+                  <p className="text-xs font-medium uppercase tracking-wide text-signal-600">Simrion</p>
                   <ul className="mt-2 space-y-1.5 text-sm text-ink-700">
                     {industry.arvionSolutions.map((item) => (
                       <li key={item}>{item}</li>

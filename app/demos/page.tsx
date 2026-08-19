@@ -5,7 +5,7 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 
 export const metadata: Metadata = {
   title: 'Demos',
-  description: 'Interactive demos of Arvion product capabilities, using illustrative demo data.',
+  description: 'Interactive demos of Simrion product capabilities, using illustrative demo data.',
 };
 
 const demos = [
@@ -26,7 +26,7 @@ export default function DemosPage() {
       <Container>
         <SectionHeading
           eyebrow="Demos"
-          title="See Arvion in action."
+          title="See Simrion in action."
           description="Every demo below runs on illustrative demo data, clearly labelled, so you can experience the product without any real business connection required."
         />
         <div className="mt-14 grid gap-6 sm:grid-cols-2">

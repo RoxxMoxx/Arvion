@@ -5,7 +5,7 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Technology should work for your business, not create more work for you — the Arvion approach to AI-powered business automation.',
+  description: 'Technology should work for your business, not create more work for you — the Simrion approach to AI-powered business automation.',
 };
 
 export default function AboutPage() {
@@ -25,12 +25,12 @@ export default function AboutPage() {
               cracks.
             </p>
             <p>
-              Arvion brings these pieces together through AI-powered automation — helping businesses
+              Simrion brings these pieces together through AI-powered automation — helping businesses
               respond faster, capture more opportunities, streamline everyday operations, and create
               better customer experiences.
             </p>
             <p>
-              From hotels and restaurants to clinics, salons, retailers, and growing SMEs, Arvion
+              From hotels and restaurants to clinics, salons, retailers, and growing SMEs, Simrion
               focuses on one simple goal: use technology where it creates measurable value, not
               complexity.
             </p>
@@ -43,7 +43,7 @@ export default function AboutPage() {
             <div className="overflow-hidden rounded-xl2 border border-ink-950/10 shadow-card">
               <Image
                 src="/founder.jpg"
-                alt="Mukesh Das, Founder and CEO of Arvion"
+                alt="Mukesh Das, Founder and CEO of Simrion"
                 width={520}
                 height={922}
                 className="h-auto w-full object-cover"
@@ -52,11 +52,11 @@ export default function AboutPage() {
             </div>
             <div>
               <p className="font-display text-2xl text-ink-950">Mukesh Das</p>
-              <p className="mt-1 text-sm font-medium text-signal-600">Founder &amp; CEO, Arvion</p>
+              <p className="mt-1 text-sm font-medium text-signal-600">Founder &amp; CEO, Simrion</p>
               <div className="mt-4 space-y-4 text-sm text-ink-700">
                 <p>
                   Mukesh brings 11+ years of experience across engineering, semiconductor technology,
-                  embedded systems, and technical leadership to Arvion.
+                  embedded systems, and technical leadership to Simrion.
                 </p>
                 <p>
                   His approach is practical: identify where a business is losing time, opportunities,
@@ -70,7 +70,7 @@ export default function AboutPage() {
             <div className="overflow-hidden rounded-xl2 border border-ink-950/10 shadow-card">
               <Image
                 src="/cmo.jpg"
-                alt="Stephen Doucette, CMO at Arvion"
+                alt="Stephen Doucette, CMO at Simrion"
                 width={360}
                 height={443}
                 className="h-auto w-full object-cover"
@@ -78,7 +78,7 @@ export default function AboutPage() {
             </div>
             <div className="mt-6 sm:mt-0">
               <p className="font-display text-2xl text-ink-950">Stephen Doucette</p>
-              <p className="mt-1 text-sm font-medium text-signal-600">CMO, Arvion</p>
+              <p className="mt-1 text-sm font-medium text-signal-600">CMO, Simrion</p>
               <div className="mt-4 space-y-4 text-sm text-ink-700">
                 <p>
                   Stephen leads the company&apos;s go-to-market strategy and helps businesses
@@ -93,7 +93,7 @@ export default function AboutPage() {
             <div className="overflow-hidden rounded-xl2 border border-ink-950/10 shadow-card">
               <Image
                 src="/cofounder.jpg"
-                alt="Md Tarikul Islam, Co-Founder and Bangladesh Country Head at Arvion"
+                alt="Md Tarikul Islam, Co-Founder and Bangladesh Country Head at Simrion"
                 width={520}
                 height={720}
                 className="h-auto w-full object-cover"
@@ -104,7 +104,7 @@ export default function AboutPage() {
               <p className="mt-1 text-sm font-medium text-signal-600">Co-Founder &amp; Bangladesh Country Head</p>
               <div className="mt-4 space-y-4 text-sm text-ink-700">
                 <p>
-                  Tarikul leads Arvion&apos;s presence and business growth in Bangladesh, working
+                  Tarikul leads Simrion&apos;s presence and business growth in Bangladesh, working
                   directly with local businesses to bring the same practical, AI-powered approach to
                   their operations.
                 </p>
@@ -113,7 +113,7 @@ export default function AboutPage() {
           </div>
 
           <p className="mt-12 border-l-2 border-signal-500/40 pl-5 font-display text-lg italic text-ink-800">
-            Arvion is built on a simple belief: technology should remove friction, not add to it.
+            Simrion is built on a simple belief: technology should remove friction, not add to it.
           </p>
         </div>
       </Container>

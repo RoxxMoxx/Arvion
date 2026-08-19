@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Free Growth Audit',
-  description: 'Request a free business growth audit from Arvion.',
+  description: 'Request a free business growth audit from Simrion.',
 };
 
 export default function AuditPage() {
@@ -15,12 +15,12 @@ export default function AuditPage() {
         <div className="mx-auto max-w-2xl">
         <SectionHeading
           eyebrow="Free Growth Audit"
-          title="See where Arvion could help your business most."
+          title="See where Simrion could help your business most."
           description="The interactive audit form is coming soon. In the meantime, reach out directly and we'll walk through it with you."
         />
         <div className="mt-8 flex flex-wrap gap-4">
           <Button href="/contact" variant="secondary">
-            Talk to Arvion
+            Talk to Simrion
           </Button>
           <Button href="/demos" variant="ghost">
             See a live demo instead

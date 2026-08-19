@@ -1,6 +1,6 @@
 import type { CallAnalysis, SampleCall, TranscriptLine } from '@/types';
 
-// All calls, transcripts, and figures on this page are illustrative "Arvion
+// All calls, transcripts, and figures on this page are illustrative "Simrion
 // Grand Hotel" demo data, hand-authored for this demo. None of it represents
 // a real customer, a real phone call, or a real AI analysis run.
 
@@ -8,7 +8,7 @@ export const sampleCalls: SampleCall[] = [
   {
     id: 'call-strong-close',
     title: 'Weekend booking enquiry',
-    business: 'Arvion Grand Hotel — Front Desk',
+    business: 'Simrion Grand Hotel — Front Desk',
     agentName: 'Priya (Front Desk)',
     durationLabel: '3:42',
     durationSeconds: 222,
@@ -17,7 +17,7 @@ export const sampleCalls: SampleCall[] = [
   {
     id: 'call-missed-upsell',
     title: 'Anniversary stay enquiry',
-    business: 'Arvion Grand Hotel — Front Desk',
+    business: 'Simrion Grand Hotel — Front Desk',
     agentName: 'Marcus (Front Desk)',
     durationLabel: '4:15',
     durationSeconds: 255,
@@ -26,7 +26,7 @@ export const sampleCalls: SampleCall[] = [
   {
     id: 'call-frustrated-guest',
     title: 'Billing dispute follow-up',
-    business: 'Arvion Grand Hotel — Guest Services',
+    business: 'Simrion Grand Hotel — Guest Services',
     agentName: 'Devon (Guest Services)',
     durationLabel: '5:08',
     durationSeconds: 308,
@@ -35,7 +35,7 @@ export const sampleCalls: SampleCall[] = [
   {
     id: 'call-corrupted-audio',
     title: 'Late-night enquiry (poor audio)',
-    business: 'Arvion Grand Hotel — Front Desk',
+    business: 'Simrion Grand Hotel — Front Desk',
     agentName: 'Unknown',
     durationLabel: '1:58',
     durationSeconds: 118,

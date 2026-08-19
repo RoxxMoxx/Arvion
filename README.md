@@ -1,4 +1,4 @@
-# Arvion — Marketing & Product Site
+# Simrion — Marketing & Product Site
 
 AI-powered business growth and automation platform: marketing site, solution/industry pages,
 and two interactive product demos (AI Voice Receptionist, AI Call Audit).
@@ -58,7 +58,7 @@ to deploy the current MVP.
 ```bash
 git init
 git add .
-git commit -m "Arvion MVP"
+git commit -m "Simrion MVP"
 git branch -M main
 git remote add origin https://github.com/<your-username>/arvion.git
 git push -u origin main

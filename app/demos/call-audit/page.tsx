@@ -16,7 +16,7 @@ export default function CallAuditPage() {
         <SectionHeading
           eyebrow="Demo"
           title="AI Call Audit"
-          description="Select a sample recorded call and see how Arvion would analyze it — scoring, sentiment, missed opportunities, and coaching, all in one view."
+          description="Select a sample recorded call and see how Simrion would analyze it — scoring, sentiment, missed opportunities, and coaching, all in one view."
         />
         <div className="mt-6 rounded-xl border border-ink-950/10 bg-paper-100 px-4 py-3 text-sm text-ink-600">
           This demo runs on hand-authored sample calls and a simulated analysis step. It is not
