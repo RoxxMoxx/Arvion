@@ -49,7 +49,12 @@ export default function PayPage() {
             </div>
           </div>
 
-          <p className="mx-auto mt-8 max-w-sm text-xs text-paper-50/40">
+          <p className="mx-auto mt-8 max-w-sm text-sm text-paper-50">
+            Thank you for choosing Simrion — we&apos;re committed to delivering the best product
+            for your business. Have a great day! 😊
+          </p>
+
+          <p className="mx-auto mt-6 max-w-sm text-xs text-paper-50/40">
             Payments are processed securely by Wise. Simrion does not collect or store your
             payment details on this site. If you have questions about an invoice or amount,{' '}
             <a href="/contact" className="underline underline-offset-2 hover:text-paper-50/70">
