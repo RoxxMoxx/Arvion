@@ -10,6 +10,7 @@ const links: NavLink[] = [
   { label: 'How It Works', href: '/#how-it-works' },
   { label: 'Demos', href: '/demos' },
   { label: 'About', href: '/about' },
+  { label: 'Pay', href: '/pay' },
   { label: 'Contact', href: '/contact' },
 ];
 

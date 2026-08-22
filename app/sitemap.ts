@@ -8,6 +8,7 @@ const routes = [
   '/demos/voice-receptionist',
   '/demos/call-audit',
   '/about',
+  '/pay',
   '/contact',
   '/audit',
   '/privacy',
